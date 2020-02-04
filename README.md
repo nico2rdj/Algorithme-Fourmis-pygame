@@ -18,6 +18,7 @@
 ## Manuel d'utilisation
 
 - Lancer la commande "python AlgorithmeFourmis.py"
+- Le tracé rouge est celui avec le plus fort taux de phéromone
 - Pour toutes modifications:
   - Changement de la disposition des noeuds sur l'interface pygame: Dans la classe Scene, on édite la vaiable de classe nodes_coord qui par défault est à : [(4,2), (12,2), (16,12), (12,16), (4,8)] 
   - Changement du coût des arrêtes entre les noeuds: Dans la classe Scene, on édite la variable contenant la matrice de coût edges_matrix qui par défault est à : 
@@ -30,11 +31,11 @@
    <br/>
   
   - Changement des paramètres : Dans la classe Scene, on édite les variables : <br/>
-    - colony_size: taille de la colonie
-    - alpha: paramètre alpha
-    - beta: paramètre beta
-    - decay: taux d'oubli
-    - initial_pheromone: initialisation des phéromones
+    - colony_size: taille de la colonie (default: 100)
+    - alpha: paramètre alpha (default: 0.5)
+    - beta: paramètre beta (default: 2.0)
+    - decay: taux d'oubli (default: 0.5)
+    - initial_pheromone: initialisation des phéromones (default: 0.0)
     
    
     
@@ -51,10 +52,10 @@ Au niveau de l'algorithme des fourmis, plusieurs structures ont été définies.
   - Les noeuds qu'elle a visité
   - Les edges qu'elle a visité
 - Scene : Elle représente le graphe des noeuds. Elle est l'endroit où l'on instancie la colonie de fourmis.Elle est caractérisée par:
-  - Taille de la colonie
-  - alpha et beta
-  - Initialisation des phéromones
-  - Taux d'oublie des phéromones
+  - Taille de la colonie 
+  - alpha et beta 
+  - Initialisation des phéromones 
+  - Taux d'oublie des phéromones 
   - La matrice de coût entre les noeuds du graphe
 
 Une brief description de l'algorithme des fourmis : 
