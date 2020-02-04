@@ -2,7 +2,7 @@
 
 <p align="center" >
    <a href="">
-    <img alt="react-native-gifted-chat" src="https://media.giphy.com/media/oVolTZuVNLfNGJ1dcg/giphy.gif" width="260" height="510" />
+    <img alt="react-native-gifted-chat" src="https://media.giphy.com/media/QAb8LBD8MMCn5UyNXL/giphy.gif" width="260" height="510" />
  </a>
 
 </p>
