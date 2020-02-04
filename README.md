@@ -17,7 +17,7 @@
 
 ## Manuel d'utilisation
 
-- Lancer la commande "python AlgorithmeFourmis.py"
+- Lancer la commande "python AlgoFourmis.py"
 - Le tracé rouge est celui avec le plus fort taux de phéromone
 - Pour toutes modifications:
   - Changement de la disposition des noeuds sur l'interface pygame: Dans la classe Scene, on édite la vaiable de classe nodes_coord qui par défault est à : [(4,2), (12,2), (16,12), (12,16), (4,8)] 
